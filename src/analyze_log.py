@@ -17,5 +17,3 @@ def get_data(path_to_file):
 def analyze_log(path_to_file):
     all_data = get_data(path_to_file)
     print(all_data)
-
-analyze_log("data/orders_1.csv")
